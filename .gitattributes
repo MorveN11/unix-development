@@ -1,0 +1,25 @@
+# Ignore compiled object files
+*.o binary
+
+# Ignore executables
+*.exe binary
+
+# Ignore generated documentation
+/doc/ binary
+
+# Ignore build output directories
+/build/ binary
+
+# Ignore temporary files
+*.tmp binary
+
+# Ignore backup files
+*.bak binary
+
+# Set text attribute for source code files
+*.c text
+*.cpp text
+*.h text
+
+# Set line ending attribute
+* eol=lf
